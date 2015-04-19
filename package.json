@@ -1,11 +1,11 @@
 {
-	"name": "raw-loader",
+	"name": "text-loader",
 	"version": "0.5.1",
 	"author": "Tobias Koppers @sokra",
 	"description": "raw loader module for webpack",
 	"repository": {
 		"type": "git",
-		"url": "git@github.com:webpack/raw-loader.git"
+		"url": "git@github.com:CodeYellowBV/text-loader.git"
 	},
 	"licenses": [
 		{
