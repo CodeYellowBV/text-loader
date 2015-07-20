@@ -17,6 +17,11 @@ var fileContent = require("text!./file.html");
 // => returns file.html content as string, with <!-- path/to/file.html --> prepended.
 ```
 
+In rare cases you don't want this comment. You can disable it with:
+```javascript
+var fileContent = require('text?nocomment!./file.html');
+```
+
 [Documentation: Using loaders](http://webpack.github.io/docs/using-loaders.html)
 
 ## License
