@@ -1,6 +1,6 @@
 {
   "name": "text-loader",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "author": "Kees Kluskens <kees@codeyellow.nl>",
   "description": "raw loader module for webpack. When loading a html file, a comment with the filename is inserted.",
   "repository": {
