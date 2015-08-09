@@ -14,7 +14,7 @@ module.exports = function(content) {
     // This comes in handy when debugging templates via the DevTools.
     var convertedContent = content;
     if (/.html$/.test(filenameRelative) && !query.nocomment) {
-        convertedContent = "\n<!-- " + filename + "  -->\n" + content;
+        convertedContent = "\n<!-- " + filenameRelative + "  -->\n" + content;
     }
 
     this.cacheable && this.cacheable();
