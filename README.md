@@ -1,4 +1,7 @@
 # text loader for webpack
+
+**DEPRECATED, please use [underscore-template-loader](https://github.com/emaphp/underscore-template-loader).**
+
 Works the same as [raw-loader](https://github.com/webpack/raw-loader), but prepends a comment with the relative path in it (e.g. `<-- view/user/edit.html -->`) for HTML files. This comes in handy when developing a complex single page app that nests template files.
 
 ## Installation
